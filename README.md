@@ -123,28 +123,7 @@ npm install
 
 ## 🚀 Future Enhancements
 
-- Job filtering and search functionality
-- Resume upload feature
-- User role management (Admin panel)
-- Pagination for job listings
+- Integrate real-time notifications for job application status
+- Implement email verification and password reset functionality
+- Add AI-powered resume screening and suggestions based on company/job requirements
 
----
-
-## 📸 Screenshots
-
-_Add screenshots here if available_
-
----
-
-## 📣 Author
-
-**Surendra Kumar Patel**  
-[GitHub Profile](https://github.com/Surendrakumarpatel)
-
----
-
-## 📃 License
-
-This project is licensed under the MIT License.
-
----
