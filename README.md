@@ -33,6 +33,27 @@ It allows users to register, log in, view job listings, apply for jobs, and enab
 
 ---
 
+## 📂 Project Structure
+
+```
+jobportal-yt/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── .env
+│   ├── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── package.json
+├── package.json
+├── README.md
+```
 
 ---
 
@@ -49,5 +70,81 @@ It allows users to register, log in, view job listings, apply for jobs, and enab
 ```bash
 cd backend
 npm install
+```
 
+- Create a `.env` file in `backend/` with the following:
+  ```
+  MONGO_URI=your_mongo_connection_string
+  JWT_SECRET=your_jwt_secret_key
+  PORT=5000
+  ```
 
+- Run the backend server:
+  ```bash
+  npm start
+  ```
+
+---
+
+### ⚛️ Frontend Setup
+
+```bash
+cd frontend
+npm install
+```
+
+- Start the React development server:
+  ```bash
+  npm start
+  ```
+
+---
+
+## 🔗 API Endpoints Overview
+
+| Method | Endpoint              | Description                    |
+|:--------|:---------------------|:--------------------------------|
+| POST   | `/auth/register`      | Register a new user             |
+| POST   | `/auth/login`         | User login and get JWT          |
+| GET    | `/jobs`               | Fetch all job listings          |
+| POST   | `/jobs`               | Add a new job (Recruiter only)  |
+| DELETE | `/jobs/:id`           | Delete a job (Recruiter only)   |
+| POST   | `/jobs/:id/apply`     | Apply to a job (User only)      |
+
+---
+
+## 🔐 Authentication & Security
+
+- Passwords are hashed using `bcrypt`
+- JWT tokens issued on login for secure authentication
+- Protected routes implemented with middleware
+
+---
+
+## 🚀 Future Enhancements
+
+- Job filtering and search functionality
+- Resume upload feature
+- User role management (Admin panel)
+- Pagination for job listings
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots here if available_
+
+---
+
+## 📣 Author
+
+**Surendra Kumar Patel**  
+[GitHub Profile](https://github.com/Surendrakumarpatel)
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License.
+
+---
