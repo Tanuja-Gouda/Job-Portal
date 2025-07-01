@@ -7,14 +7,15 @@ It allows users to register, log in, view job listings, apply for jobs, and enab
 
 ## 📌 Features
 
-- 👥 User Registration and Login with JWT Authentication
-- 📄 Recruiters can post, update, and delete job listings
-- 📝 Job seekers can view available jobs and apply
-- 🔐 Passwords securely hashed using bcrypt
-- 📦 RESTful API-based backend with Express.js
-- 💾 MongoDB for storing users, jobs, and application data
-- ⚛️ React frontend with modern UI and routing
-- 📡 Axios used for frontend-backend API communication
+- 👥 User Registration and Login with JWT Authentication.
+- 📄 Recruiters can post, update, and delete job listings.
+- 📝 Job seekers can view available jobs and apply.
+- 🔐 Passwords securely hashed using bcrypt.
+- 📦 RESTful API-based backend with Express.js.
+- 💾 MongoDB for storing users, jobs, and application data.
+- ⚛️ React frontend with modern UI and routing.
+- 🎨 Tailwind CSS for fast, utility-first styling.
+- 📡 Axios used for frontend-backend API communication.
 
 ---
 
@@ -23,6 +24,7 @@ It allows users to register, log in, view job listings, apply for jobs, and enab
 | Technology | Description                        |
 |------------|------------------------------------|
 | React.js   | Frontend library for UI development|
+| Tailwind CSS | Utility-first CSS framework for styling |
 | Node.js    | Backend runtime environment        |
 | Express.js | Web framework for Node.js          |
 | MongoDB    | NoSQL database                     |
@@ -50,6 +52,8 @@ jobportal-yt/
 │   │   ├── pages/
 │   │   ├── App.js
 │   │   ├── index.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
 │   ├── package.json
 ├── package.json
 ├── README.md
