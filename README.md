@@ -33,5 +33,21 @@ It allows users to register, log in, view job listings, apply for jobs, and enab
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## ⚙️ Installation & Setup
+
+### 📌 Prerequisites
+- Node.js & npm
+- MongoDB (local or cloud-based like MongoDB Atlas)
+
+---
+
+### 📦 Backend Setup
+
+```bash
+cd backend
+npm install
+
 
